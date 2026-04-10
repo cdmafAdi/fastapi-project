@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FastAPI App</title>
+    <title>FastAPI</title>
 </head>
 <body>
 
-<h1>FastAPI Frontend</h1>
-<button onclick="callAPI()">Call API</button>
-
-<p id="result"></p>
-
-<script>
-async function callAPI() {
-    const res = await fetch('/api/hello');
-    const data = await res.json();
-    document.getElementById("result").innerText = data.message;
-}
-</script>
+<h1>Hello FastAPI</h1>
 
 </body>
 </html>
